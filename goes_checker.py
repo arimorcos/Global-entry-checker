@@ -110,8 +110,7 @@ class check_goes:
 
         # Get current day
         day = driver.find_element_by_xpath(
-            '//*[@id="scheduleForm"]/table/tbody/tr/td[1]/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr['
-            '6]/td[7]/a/span'
+            '//*[@class="currentDayCell"]/a/span'
         ).text
 
         # Close website

@@ -13,7 +13,7 @@ if __name__ == "__main__":
 
         # Compare
         delta = (new_date - compare_date).days
-        print delta
+        print new_date.strftime('%x')
         if delta < 0:
             msg = "New date found: {}".format(new_date.strftime('%x'))
             checker.send_email(msg)
