@@ -53,6 +53,7 @@ coverage.xml
 *.log
 
 # Sphinx documentation
+/email_info.txt
 docs/_build/
 
 # PyBuilder
@@ -61,4 +62,4 @@ target/
 # Created by .ignore support plugin (hsz.mobi)
 
 # User info
-user_info.txt
+/user_info.txt
